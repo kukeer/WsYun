@@ -1,0 +1,10 @@
+com:
+  mqtt:
+    inbound:
+      url: tcp://120.79.49.63:1883
+      clientId: familyServerIn
+      topics: topic1,topic2
+    outbound:
+      urls: tcp://120.79.49.63:1883
+      clientId: familyServerOut
+      topic: topic1
